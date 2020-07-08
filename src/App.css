@@ -1,0 +1,36 @@
+body{
+  background-color: powderblue;
+}
+.App{
+  background-color: orangered;
+  min-height: 500px;
+  width: 500px;
+  margin: 40px auto;
+}
+.App  input{
+  background-color: blueviolet;
+  border:0;
+  width:200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  border-radius: 10px;
+  color:white;
+  font-size: 18px;
+
+}
+.App input::placeholder{
+  color: black;
+}
+
+.App button{
+  height: 50px;
+  width: 80px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: yellow;
+  font-size: 20px;
+}
